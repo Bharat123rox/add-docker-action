@@ -21,7 +21,7 @@ The time the sum finished computing.
 ## Example usage
 
 ```yaml
-uses: actions/hello-world-docker-action@master
+uses: Bharat123rox/add-docker-action@master
 with:
   number-1: 2
   number-2: 3
