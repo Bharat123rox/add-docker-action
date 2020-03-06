@@ -1,23 +1,28 @@
 # Hello world docker action
 
-This action prints "Hello World" to the log or "Hello" + the name of a person to greet. To learn how this action was built, see "[Creating a Docker container action](https://help.github.com/en/articles/creating-a-docker-container-action)" in the GitHub Help documentation.
+This action prints the sum of two numbers. To learn how this action was built, see "[Creating a Docker container action](https://help.github.com/en/articles/creating-a-docker-container-action)" in the GitHub Help documentation.
 
 ## Inputs
 
-### `who-to-greet`
+### `number-1`
 
-**Required** The name of the person to greet. Default `"World"`.
+**Required** The first number. Default `"0"`.
+
+### `number-2`
+
+**Required** The second number. Default `"0"`.
 
 ## Outputs
 
 ### `time`
 
-The time we greeted you.
+The time the sum finished computing.
 
 ## Example usage
 
 ```yaml
 uses: actions/hello-world-docker-action@master
 with:
-  who-to-greet: 'Mona the Octocat'
+  number-1: 2
+  number-2: 3
 ```
