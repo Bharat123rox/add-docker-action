@@ -6,11 +6,11 @@ This action prints the sum of two numbers. To learn how this action was built, s
 
 ### `number-1`
 
-**Required** The first number. Default `"0"`.
+**Required** The first number. Default 0.
 
 ### `number-2`
 
-**Required** The second number. Default `"0"`.
+**Required** The second number. Default 0.
 
 ## Outputs
 
