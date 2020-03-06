@@ -1,6 +1,6 @@
-# Hello world docker action
+# Add two numbers docker action
 
-This action prints the sum of two numbers. To learn how this action was built, see "[Creating a Docker container action](https://help.github.com/en/articles/creating-a-docker-container-action)" in the GitHub Help documentation.
+This action prints the sum of two numbers. To learn how this action was built, see "[Creating a Docker container action](https://help.github.com/en/articles/creating-a-docker-container-action)" in the GitHub Help documentation. (This was done for LEARNING purposes only)
 
 ## Inputs
 
